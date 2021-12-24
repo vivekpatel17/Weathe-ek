@@ -15,7 +15,7 @@ export default function Card (params) {
     return (
         <div className={classes.card} >
             <div className={classes.cardHeader}>
-                <p>{day}, {date} {month} {year}</p>
+                <p>{day}, {date} {month + 1} {year}</p>
             </div>
             <div className={classes.cardimg}>
                 <img src={imgurl} alt="Weather Icon" />
