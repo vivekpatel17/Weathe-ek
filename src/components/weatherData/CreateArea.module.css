@@ -1,0 +1,42 @@
+
+.area{
+    text-align: center;
+}
+
+.input{
+    background-image: url("../../images/weatheek_day.jpg");
+    padding: 70px 0;
+}
+
+.textArea{
+    height: 40px;
+    width: 57%;
+    font-size: 25px;
+    border-radius: 7px 0 0 7px;
+    border-color: #84DFFF;
+    border-width: 3px;
+    border-right-width: 0;
+    box-shadow: 0 7px 10px #84DFFF;
+}
+
+.textArea:focus{
+    outline-width: 0;
+}
+
+.btnArea{
+    padding: 0;
+    position: relative;
+    top: 12px;
+    height: 46px;
+    border-radius: 0 7px 7px 0;
+    border-color: #84DFFF;
+    border-width: 3px;
+    border-left-width: 0;
+    box-shadow: 2px 7px 10px #84DFFF;
+}
+
+.btnArea img{
+    border-radius: 7px;
+    height: 40px;
+    width: 40px;
+}

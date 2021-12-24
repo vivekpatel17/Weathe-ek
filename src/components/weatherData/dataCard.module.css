@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans&family=Source+Sans+Pro:ital@1&display=swap');
+
+
+.card{
+    height: fit-content;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 20px 20px;
+    padding: 0 10px 0 10px;
+}
+
+.cardHeader{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cardimg{
+    display: flex;
+}
+
+.cardimg p{
+    /* margin: 15px 0 0 15px; */
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.cardbody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'PT Sans', sans-serif;
+}

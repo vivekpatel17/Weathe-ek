@@ -1,0 +1,21 @@
+.data{
+    margin-top: 40px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dailyData{
+    background-color: #CDDEFF;
+    max-width: 780px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.graphs{
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
